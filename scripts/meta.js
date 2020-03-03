@@ -35,5 +35,6 @@ hexo.extend.helper.register('meta', function (post) {
         });
         return '<meta ' + entityArray.join(' ') + ' />';
     });
+    metaDOMArray.push('<meta name="google-site-verification" content="OZsvRA2rPRV_qX--Vm8FgrLOyJLbwa28Mbn7Ah1viOQ" />')
     return metaDOMArray.join('\n');
 });
